@@ -6,11 +6,11 @@ class Ninja {
         this.strength = strength;
 
         sayName() {
-
+            console.log(this.name);
         }
 
         showStats() {
-            console.log();
+            console.log(this.name, this.speed, this.strength, this.health);
         }
 
         drinkSake() {
@@ -19,5 +19,5 @@ class Ninja {
     }
 }
 
-const ninjaOne = new Ninja("Snake Eyes");
+const ninjaOne = new Ninja("Snake Eyes", 4);
 console.log(ninjaOne);

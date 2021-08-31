@@ -5,6 +5,17 @@ class Ninja {
         this.speed = speed;
         this.strength = strength;
 
+        sayName() {
+
+        }
+
+        showStats() {
+            console.log();
+        }
+
+        drinkSake() {
+
+        }
     }
 }
 

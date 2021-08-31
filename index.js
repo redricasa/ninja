@@ -14,7 +14,7 @@ class Ninja {
         }
 
         drinkSake() {
-
+            return this.health + 10;
         }
     }
 }

@@ -6,7 +6,7 @@ class Ninja {
         this.strength = strength;
     }
     sayName() {
-        console.log(this.name);
+        console.log(`This ninjas name is ${this.name}`);
     }
 
     showStats() {
